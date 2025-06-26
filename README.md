@@ -1,4 +1,5 @@
 🚀 Welcome to GitHub for Awesome Developers! 🚀
+
 Hello, amazing future coders! This guide will help you share your cool code projects with the world using something called Git and GitHub. Think of it like a special online album for your code!
 
 🧐 What are Git and GitHub?
@@ -16,7 +17,7 @@ Bring it to your computer: Imagine you're copying the empty project space from G
 Put your code inside: Copy all your project files into the folder you just cloned.
 
 Tell Git about your changes and send them to GitHub! Open your command line (a black window where you type commands) and type these magic words, one by one:
-
+```
 git clone <paste_your_repo_link_here>
 # (This copies your empty project space)
 
@@ -31,12 +32,12 @@ git commit -m "My first code!"
 
 git push origin main
 # (This sends your snapshot to GitHub so everyone can see it!)
-
+```
 Replace <paste_your_repo_link_here> with the link GitHub gives you for your new project, and <name_of_your_project_folder> with the name of the folder.
 
 🚫 What NOT to Push (Secret Stuff!)
 Some files are like your secret toys – you don't want to share them with everyone! Make sure you DO NOT send these files or folders to GitHub:
-
+```
 pycache/ (These are temporary files Python makes)
 
 .vscode/ (These are settings for some coding programs)
@@ -52,12 +53,12 @@ pycache/ (These are temporary files Python makes)
 *.db (Database files)
 
 *.csv (Spreadsheet files)
-
+```
 📁 How to Use a .gitignore File (The Secret Keeper!)
 The best way to tell Git what to ignore is by making a special file called .gitignore. It's like a list of things Git should pretend don't exist.
 
 Create a file named .gitignore in your project folder (make sure it starts with a dot .!) and put stuff like this inside:
-
+```
 # Python temporary files
 pycache/
 *.py[cod]
@@ -73,10 +74,10 @@ venv/
 
 # Secret stuff
 .env
-
+```
 🗑️ Oops! How to Remove Unwanted Files You Accidentally Pushed
 Don't worry if you accidentally sent a secret file! You can fix it. Open your command line and type:
-
+```
 git rm -r --cached .vscode/
 # (This tells Git to forget about the .vscode folder)
 
@@ -92,7 +93,7 @@ git commit -m "Removed unnecessary files"
 
 git push
 # (This sends the update to GitHub!)
-
+```
 🎥 Learn More with a Video!
 If you want to watch a super helpful video about Git and GitHub, check this one out:
 Git and GitHub for Beginners
