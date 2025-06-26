@@ -96,7 +96,7 @@ git push
 ```
 🎥 Learn More with a Video!
 If you want to watch a super helpful video about Git and GitHub, check this one out:
-Git and GitHub for Beginners
+[Git and GitHub for Beginners](https://www.youtube.com/watch?v=r8jQ9hVA2qs)
 
 ❓ Got Questions?
 If you ever get stuck or need help, don't be shy! Just ask for help. We're here to make coding fun for you!
